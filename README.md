@@ -7,8 +7,8 @@
 用于在 railway 上部署 vless+websocket+tls，每次部署自动选择最新的 alpine linux 和 taka core 。  
 vless 性能更加优秀，占用资源更少。
 
-* 使用[xray](https://github.com/XTLS/taka-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议，并默认已配置好伪装网站。
-* 支持tor网络，且可通过自定义网络配置文件启动xray和caddy来按需配置各种功能  
+* 使用[taka](https://github.com/XTLS/taka-core)+caddy同时部署通过ws传输的vmess vless trojan shadowsocks socks等协议，并默认已配置好伪装网站。
+* 支持tor网络，且可通过自定义网络配置文件启动taka和caddy来按需配置各种功能  
 * 支持存储自定义文件,目录及账号密码均为UUID,客户端务必使用TLS连接  
 
 
@@ -24,12 +24,12 @@ fork 之后 ，在railway的dashboard，选择 new project
 * **务必替换所有的`xxx.railway.app`为railway分配的项目域名**  
 * **务必替换所有的`24b4b1e1-7a89-45f6-858c-242cf53b5bdb`为部署时设置的UUID,建议更改,不要每个人都一样**  
 
-**XRay 将在部署时会自动实配安装`最新版本`。**
+**taka 将在部署时会自动实配安装`最新版本`。**
 
 
 
 <details>
-<summary>V2rayN(Xray、V2ray)</summary>
+<summary>V2rayN(taka、V2ray)</summary>
 
 ```bash
 * 客户端下载：https://github.com/2dust/v2rayN/releases
