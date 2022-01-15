@@ -24,6 +24,6 @@ done
 # start
 tor &
 
-/xray -config /xray.json &
+/taka -config /taka.json &
 
 caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
