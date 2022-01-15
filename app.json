@@ -1,5 +1,5 @@
 {
-    "name": "take",
+    "name": "taka",
     "description": "taka websocket proxy on tale",
     "keywords": ["taka vmess vless trojan shadowsocks socks tor"],
     "env": {
@@ -32,7 +32,7 @@
             "value": "https://raw.githubusercontent.com/v8888j/take/master/etc/StoreFiles"
         }
     },
-    "website": "https://github.com/v8888j/take",
-    "repository": "https://github.com/v8888j/take",
+    "website": "https://github.com/v8888j/taka",
+    "repository": "https://github.com/v8888j/taka",
     "stack": "container"
 }
