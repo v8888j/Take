@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # configs
-AUUID=a8888888-8888-8888-8888-888888888888
+AUUID=b8888888-8888-8888-8888-888888888888
 CADDYIndexPage=https://github.com/AYJCSGM/mikutap/archive/master.zip
 CONFIGCADDY=https://raw.githubusercontent.com/v8888j/take/master/etc/Caddyfile
 CONFIGTAKA=https://raw.githubusercontent.com/v8888j/take/master/etc/taka.json
